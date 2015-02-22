@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Stop-watch</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<!--<div class="row">
+			<div class="col-xs-4">
+				<h2 class="stopwatch-current timer">00:00:00:000</h2>
+				<div class="stopwatch-laps">
+					<div class="alert alert-info">
+						00:10:11:196
+						<span class="label label-danger">×</span>
+					</div>
+					<div class="alert alert-info">
+						00:00:10:001
+						<span class="label label-danger">×</span>
+					</div>
+					<div class="alert alert-info">
+						00:00:01:015
+						<span class="label label-danger">×</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-4 stopwatch-controls">
+				<div class="btn-group btn-group-lg">
+					<button class="btn btn-primary">Start</button>
+					<button class="btn btn-info">Lap</button>
+				</div>
+				<button class="btn btn-danger btn-sm">Reset</button>
+			</div>
+		</div>-->
+	</div>
+	<div class="container" id="div2"></div>
+	<script src="js/timer.js"></script>
+	<script>
+		var node = document.querySelector('.container');
+		window.newTimer = new MainTimer(node);
+		var node2 = document.querySelector('.container').nextSibling.nextSibling;
+		console.log(node2);
+		window.newTimer2 = new MainTimer(node2);
+
+	</script>
+</body>
+</html>

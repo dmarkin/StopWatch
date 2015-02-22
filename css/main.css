@@ -1,0 +1,35 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+	border: 1px dotted black;
+	margin-bottom: 10px;
+}
+
+.stopwatch-controls {
+	margin-top: 20px;
+}
+
+.stopwatch-controls .btn-danger {
+	margin-left: 20px;
+}
+
+.stopwatch-laps {
+	margin-top: 20px;
+}
+
+.stopwatch-laps .alert {
+	position: relative;
+	font-size: 18px;
+}
+
+.stopwatch-laps .label-danger {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+button.btn-primary, button.btn-info {
+	min-width: 72px;
+}
